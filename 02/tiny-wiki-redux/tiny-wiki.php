@@ -122,7 +122,7 @@ function setup_database($db) {
       <input type="text" name="content" class="content" id="input" value="<?php echo $content; ?>" />
       <input type="submit" value="Update" id="submit" />
     </form>
-    <div id="bottom">Hint: press left/right arrow keys. With apologies to <a href="http://barackobamaisyournewbicycle.com/">BOIYNB</a></div>
+    <div id="bottom">Hint: press left/right arrow keys. <a href="https://github.com/dphiffer/fecpw/tree/master/02/tiny-wiki-redux">View source</a>. With apologies to <a href="http://barackobamaisyournewbicycle.com/">BOIYNB</a></div>
     <script src="jquery.min.js"></script>
     <script src="tiny-wiki.js"></script>
   </body>
