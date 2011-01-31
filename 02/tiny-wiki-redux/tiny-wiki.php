@@ -32,6 +32,9 @@ if (!empty($_REQUEST['id'])) {
 // We need a link to click on even if the content is empty
 if (empty($content)) {
   $content = '(empty)';
+} else {
+  // Defend against cross-site scripting attacks
+  $content = htmlentities($content);
 }
 
 // Returns the most recent content
