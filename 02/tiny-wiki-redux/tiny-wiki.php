@@ -34,7 +34,7 @@ if (empty($content)) {
   $content = '(empty)';
 } else {
   // Defend against cross-site scripting attacks
-  $content = htmlentities($content);
+  $content = htmlentities($content, ENT_COMPAT, 'UTF-8');
 }
 
 // Returns the most recent content
