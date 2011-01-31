@@ -118,6 +118,7 @@ function setup_database($db) {
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>Tiny wiki</title>
     <link rel="stylesheet" href="tiny-wiki.css" />
+    <meta property="og:image" content="tiny-wiki.png"/>
   </head>
   <body>
     <a href="<?php echo $url ?>" class="<?php echo $class; ?>" id="content-<?php echo $id; ?>"><?php echo $content; ?></a>
