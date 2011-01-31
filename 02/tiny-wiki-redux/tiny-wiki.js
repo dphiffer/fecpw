@@ -11,7 +11,7 @@ jQuery(window).ready(function($) {
   });
   
   $(document).keydown(function(e) {
-    var id = parseInt($('a.content').attr('data-id'));
+    var id = parseInt($('a.content').attr('id').match(/content-(\d+)/)[1]);
     if (editing && e.which == 27) {
       $('form').hide();
       $('a.content').show();

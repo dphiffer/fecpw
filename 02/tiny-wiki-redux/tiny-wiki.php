@@ -120,7 +120,7 @@ function setup_database($db) {
     <link rel="stylesheet" href="tiny-wiki.css" />
   </head>
   <body>
-    <a href="<?php echo $url ?>" class="<?php echo $class; ?>" data-id="<?php echo $id; ?>"><?php echo $content; ?></a>
+    <a href="<?php echo $url ?>" class="<?php echo $class; ?>" id="content-<?php echo $id; ?>"><?php echo $content; ?></a>
     <form action="tiny-wiki.php" method="post">
       <input type="text" name="content" class="content" id="input" value="<?php echo $content; ?>" />
       <input type="submit" value="Update" id="submit" />
