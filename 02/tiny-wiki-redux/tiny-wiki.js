@@ -15,6 +15,7 @@ jQuery(window).ready(function($) {
     if (editing && e.which == 27) {
       $('form').hide();
       $('a.content').show();
+      editing = false;
     } else if (!editing && e.which == 37) {
       if (id != 1) {
         window.location = '?id=' + (id - 1);
