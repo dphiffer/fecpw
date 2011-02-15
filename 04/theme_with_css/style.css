@@ -1,0 +1,42 @@
+/*
+Theme Name: Theme with CSS
+Theme URI: http://phiffer.org/
+Description: A theme from scratch, with CSS!
+Version: 1.0
+Author: Dan Phiffer
+*/
+
+body {
+  background: #999;
+  margin: 0;
+}
+
+#container {
+  background: #fff;
+  width: 779px;
+  margin: 0 auto;
+  padding: 40px;
+  font: 24px/36px helveticaneue, helvetica, sans-serif;
+}
+
+#header {
+  background-image: url(images/header.jpg);
+  width: 780px;
+  height: 229px;
+}
+
+#content {
+  float: left;
+  width: 490px;
+}
+
+#sidebar {
+  float: right;
+  width: 218px;
+  background: #688387;
+  margin-top: 20px;
+}
+
+.clear {
+  clear: both;
+}
