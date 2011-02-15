@@ -1,0 +1,15 @@
+/*
+Theme Name: Child theme with custom page
+Theme URI: http://phiffer.org/
+Description: A child theme with a custom page!
+Version: 1.0
+Author: Dan Phiffer
+Template: twentyten
+*/
+
+@import url("../twentyten/style.css");
+
+body {
+  background: #333;
+}
+
