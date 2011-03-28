@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>position: absolute</title>
+    <style>
+    
+    body {
+      font: 18px/24px "times new roman", sans-serif;
+      color: #fff;
+      background: #494949;
+      margin: 20px;
+    }
+    
+    .abs {
+      position: absolute;
+      width: 300px;
+      border: 1px solid #fff;
+      background: #000;
+      padding: 20px;
+    }
+    
+    #first {
+      top: 50px;
+      left: 50px;
+    }
+    
+    #second {
+      right: 50px;
+      top: 125px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="container">
+      <div id="first" class="abs">This first div is 50 pixels from the top and 50 pixels from the left edge.</div>
+      <div id="second" class="abs">The second div is 50 pixels from the <em>right</em> edge and 125 pixels from the top. The order in the HTML determines stacking order.</div>
+    </div>
+  </body>
+</html>
