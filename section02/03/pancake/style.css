@@ -1,0 +1,21 @@
+/*
+Theme Name: Pancake theme
+Description: A really really simple custom theme
+Author: Dan Phiffer
+Version: 1.0
+*/
+
+body {
+  font: 14px/20px georgia;
+  margin: 20px;
+}
+
+#page {
+  width: 600px;
+}
+
+.post {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  margin: 15px;
+}
